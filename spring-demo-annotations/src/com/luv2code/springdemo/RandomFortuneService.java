@@ -9,8 +9,8 @@ public class RandomFortuneService implements FortuneService {
 
 	// create an array of strings
 	private String[] data = {
-		"Beware of teh worlf in sheep's clothing",
-		"Diligence is the motehr of good luck",
+		"Beware of the wolf in sheep's clothing",
+		"Diligence is the mother of good luck",
 		"The journey is the reward"
 	};
 	
