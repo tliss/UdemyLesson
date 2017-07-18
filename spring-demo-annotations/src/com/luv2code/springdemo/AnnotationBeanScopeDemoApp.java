@@ -12,12 +12,12 @@ public class AnnotationBeanScopeDemoApp {
 				ClassPathXmlApplicationContext("applicationContext.xml");
 		
 		// retrieve bean from spring container
-		Coach theCoach = context.getBean("tennisCoach", Coach.class);
-		
-		Coach alphaCoach = context.getBean("tennisCoach", Coach.class);
+//		Coach theCoach = context.getBean("tennisCoach", Coach.class);
+//		
+//		Coach alphaCoach = context.getBean("tennisCoach", Coach.class);
 		
 		// check if they are the same
-		boolean result = (theCoach == alphaCoach);
+//		boolean result = (theCoach == alphaCoach);
 		
 		// print out the results of our comparison
 //		System.out.println("\nPointing to the same object: " + result);
